@@ -1,6 +1,6 @@
-# NN-GRISE - Code for reproducibility
+# NeurISE - Code for reproducibility
 
-We will demonstrate how to genreate data for a binary model and then learn it using NN-GRISE
+We will demonstrate how to genreate data for a binary model and then learn it using NeurISE
 
 ## Data generation
 
@@ -11,13 +11,13 @@ General graphical models can be created using the `FactorGraph` data structure a
 Run the `data_gen.jl` script to generate samples for the binary model considered in the paper.
 The data is written to `samples.csv`
 
-## Learning with NN_GRISE
+## Learning with NeurISE
 
 Learning is done using Tensorflow. This is best done on a GPU. Testing was done on a GTX 1050.
 
-Run `learn.py` to do NN-GRISE on the saved samples. This script will learn, sample and calulate the error in TV and display it
+Run `learn.py` to do NeurISE on the saved samples. This script will learn, sample and calulate the error in TV and display it
 
-The hyperparamters of NN-GRISE model can be changed in this scipt.
+The hyperparamters of NeurISE model can be changed in this scipt.
 
 ## Stucture Learning
 
