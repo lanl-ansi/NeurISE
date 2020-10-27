@@ -43,5 +43,5 @@ n_samples =10^6
 
 s = raw_sampler_potts(F, n_samples, false)
 samples=[2*a .- 3  for a in s]
-sample_path ="saved_model/samples.csv"
+sample_path ="samples.csv"
 writedlm( sample_path,hcat(samples...))
