@@ -16,7 +16,7 @@ The data is written to `samples.csv`
 
 Learning is done using Tensorflow. This is best done on a GPU. Testing was done on a GTX 1050.
 
-Run `learn.py` to do NeurISE on the saved samples. This script will learn, sample and calulate the error in TV and display it
+Run `learn.py` to do NeurISE on the saved samples. This script will learn, sample and calulate the error in TV and display it.
 
 The hyperparamters of NeurISE model can be changed in this scipt.
 
