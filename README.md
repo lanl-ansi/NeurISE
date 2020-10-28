@@ -1,7 +1,7 @@
 # NeurISE - Code for reproducibility
 Graphical model learning with neural nets [1]  [https://arxiv.org/abs/2006.11937]
 
-We will demonstrate how to genreate data for a binary model and then learn it using NeurISE
+We will demonstrate how to generate data for a binary model and then learn it using NeurISE.
 
 ## Data generation
 
@@ -29,3 +29,7 @@ The code demonstrating structure learning is inside the `Strucutre Learning` fol
 [1] Abhijith, J., Lokhov, A., Misra, S., and Vuffray, M., Learning of Discrete Graphical Models with Neural Networks, NeurIPS 2020.
 
 [2] Hagberg, Aric, Pieter Swart, and Daniel S Chult. Exploring network structure, dynamics, and function using NetworkX. No. LA-UR-08-05495; LA-UR-08-5495. Los Alamos National Lab.(LANL), Los Alamos, NM (United States), 2008.
+
+## License
+
+This code is provided under a BSD license as part of the Optimization, Inference and Learning for Advanced Networks project, C18014.
