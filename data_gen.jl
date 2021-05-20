@@ -1,5 +1,4 @@
 include("Potts.jl")
-include("/home/abhijith/Dropbox/Code/GRISE_code/Potts_learning.jl")
 using IterTools:product
 
 
